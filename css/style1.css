@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Roboto light';
+    src: url(fonts/Roboto-Light.ttf)
+}
+@font-face {
+    font-family: 'Roboto' ;
+    src: url(fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: 'Roboto medium';
+    src: url(fonts/Roboto-Medium.ttf);
+}
+.articles {
+    background-color:#E5E7EB ;
+    padding : 100px;
+    font-family: 'Roboto','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.article2,.article4 {
+    background-color : rgb(200, 222, 223);
+}
+.articles h1{
+    font-size: 36px;
+}
+.articles p{
+    font-family: 'Roboto Light', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}

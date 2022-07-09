@@ -13,6 +13,7 @@
 * {
     margin: 0;
     right: 0;
+    font-family: 'Roboto';
 }
 header { 
     background-color: #1F2937;
@@ -24,7 +25,11 @@ nav {
    align-items:center;
    padding: 10px 10px;
    font-family: 'Roboto','Times New Roman', Times, serif;
-  font-size: 24px;
+   font-size: 24px;
+}
+nav h1 a {
+    text-decoration: none;
+    color: #F9FAF8;
 }
 nav ul {
     list-style: none;
@@ -34,6 +39,26 @@ nav ul li {
     display: inline-block;
     font-size: 18px;
     padding: 0px 20px ;
+    font-family: 'Roboto medium','Times New Roman', Times, serif;
+    
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    POSITION: relative; 
+}
+nav ul li a:after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0%;
+    background-color:white;
+    margin-top: 30px;
+    left: 0;
+    transition : 0.7s;
+  }
+nav ul li a:hover:after{
+    width: 100%;
 }
 .top-section{
     margin :100px 300px; 
@@ -55,7 +80,7 @@ nav ul li {
     font-family: 'Roboto medium','Times New Roman', Times, serif;
     font-size: 18px;
 }
-img {
+.top-section img {
     flex:1;
     width: auto;
     max-width: 100%;
@@ -82,7 +107,7 @@ img {
 #third-section {
     margin-top:30px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-around;
     margin-left:300px;
     margin-right:300px;
     font-family: 'Roboto','Times New Roman', Times, serif;
@@ -101,6 +126,10 @@ img {
     border-radius: 10px;
     display: flex;
     margin-bottom: 5px;
+}
+#third-section img {
+    max-width: 100%;
+    border-radius: 8px;
 }
 .fourth {
     background-color: #E5E7EB;
@@ -142,6 +171,10 @@ img {
     border-radius: 5px;
     width: 120px;
     height: 35px;
+    transition: 0.6s;
+}
+.fifth button:hover{
+    transform:scale(1.2);
 }
 footer {
     background-color: #1F2937;

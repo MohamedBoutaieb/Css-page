@@ -1,0 +1,41 @@
+.api {
+    padding: 50px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    font-family: 'Roboto medium','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 80px 100px ;
+}
+.ig {
+    background-color: #d57796;
+}
+.gb {
+    background-color: #827c7e;
+}
+.lk {
+    background-color: #0d61ea
+}
+.api button {
+    float: right;
+    background-color: inherit;
+    font-family: 'Roboto medium','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: white;
+    border: white solid;
+    border-radius: 5px;
+    width: 120px;
+    height: 35px;
+    transition : 0.5s;
+}
+.api button:hover {
+    transform: rotate(20deg) scale(1.1);
+    color:black;
+}
+.api a {
+    flex: 1;
+}
+.api div {
+    flex: 4;
+}
